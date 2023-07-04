@@ -73,7 +73,7 @@ export class GameService {
 		const randomVehicle: SingleObstacles = CONFIG.vehicles[Math.floor(Math.random() * CONFIG.vehicles.length)];
 
 		this.obstacles.push(new function () {
-			this.x = Math.floor(Math.random() * 450) + 0,
+			this.x = Math.floor(Math.random() * 350) + 0,
 			this.y = Math.floor(Math.random() * -15) + 0,
 			this.width = randomVehicle.width;
 			this.height = randomVehicle.height;

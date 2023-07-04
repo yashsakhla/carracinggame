@@ -32,6 +32,7 @@
 .play-ground{
     display: grid;
     margin: auto;
-    background-color: #ddd;
+    background-image:  url('/assets/img/road-bg.png');
+    background-size: contain;
 }
 
